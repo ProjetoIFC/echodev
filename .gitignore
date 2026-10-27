@@ -1,3 +1,13 @@
+# DEFINIÇÃO ##########################################################################################################
+# O termo Add .gitignore refere-se à ação de criar ou incluir um arquivo chamado .gitignore na raiz de um projeto que utiliza o Git para controle de versão.
+# O que é o arquivo .gitignore?
+# O .gitignore é um arquivo de texto simples usado para instruir o Git a ignorar arquivos e pastas específicos. 
+# Isso significa que esses itens não serão rastreados e nem enviados para repositórios remotos (como o GitHub ou GitLab).
+# Para que serve?
+#   • Evitar dados sensíveis: Protege senhas, chaves de API, tokens de acesso e arquivos de configuração com dados particulares de vazarem.
+#   • Excluir arquivos temporários e de compilação: Impede que arquivos gerados automaticamente pelo sistema ou pela linguagem (como pastas node_modules, build, dist, arquivos .log ou arquivos do sistema operacional como .DS_Store) poluam o repositório.
+#   • Manter o projeto limpo: Garante que apenas o código-fonte essencial seja compartilhado entre os desenvolvedores.
+######################################################################################################################
 # Prerequisites
 *.d
 
